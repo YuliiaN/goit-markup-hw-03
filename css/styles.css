@@ -172,11 +172,19 @@ body {
 /* Hero section */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--footer-color);
   text-align: center;
 }
 
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -185,8 +193,6 @@ body {
 
   text-transform: uppercase;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -219,6 +225,8 @@ body {
 }
 
 .features-subtitle {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -231,6 +239,12 @@ body {
 }
 
 /* Suggestions section */
+
+.suggestions .img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .suggestions .list {
   display: flex;
@@ -343,8 +357,7 @@ footer {
   display: flex;
   justify-content: center;
 
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:last-child) {
@@ -408,11 +421,13 @@ footer {
   border-top: none;
 }
 
-.portfolio-cards .name {
+.name.title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 
 .portfolio-cards .p {
